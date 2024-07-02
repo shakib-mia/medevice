@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Text:ital@0;1&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  @apply w-0;
+}
+
+/* * {
+  @apply scroll-smooth;
+} */
+
+body {
+  @apply font-sans text-black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @apply font-serif leading-[1.2];
+}
+
+h1 {
+  @apply text-32 sm:text-40 md:text-48 lg:text-56 xl:text-64;
+}
+
+h2 {
+  @apply text-24 sm:text-32 md:text-40 lg:text-48 xl:text-56;
+}
+
+h3 {
+  @apply text-20 sm:text-24 md:text-32 lg:text-40 xl:text-48;
+}
+
+h4 {
+  @apply text-18 sm:text-20 md:text-24 lg:text-32 xl:text-40;
+}
+
+h5 {
+  @apply text-16 sm:text-18 md:text-20 lg:text-24 xl:text-32;
+}
+
+h6 {
+  @apply text-14 sm:text-16 md:text-18 lg:text-20 xl:text-24;
+}
+
+p {
+  @apply text-12 sm:text-14 md:text-16 lg:text-18 xl:text-20;
+}
+
+p.large {
+  @apply text-14 sm:text-16 md:text-18 lg:text-20 xl:text-24;
+}
+
+p.small {
+  @apply text-12 sm:text-14 md:text-16 lg:text-18;
+}
+
+p.xs {
+  @apply text-12 sm:text-14 md:text-16 lg:text-18;
+}
+
+/* custom {
+  @apply text-12 sm:text-14 md:text-16 lg:text-18 xl:text-20;
+} */
+
+button {
+  @apply rounded-full border-2 border-black bg-black px-4 py-2 font-medium text-white transition hover:bg-transparent hover:text-black xl:px-8 xl:py-4;
+}
+
+button.btn-outline {
+  @apply rounded-full border-2 border-black bg-transparent px-4 py-2 font-medium text-black transition hover:bg-black hover:text-white group-hover:bg-black group-hover:text-white xl:px-8 xl:py-4;
+}
+
+button.btn-white {
+  @apply rounded-full border-2 border-white bg-white px-4 py-2 font-medium text-black transition hover:bg-transparent hover:text-white group-hover:bg-white group-hover:text-black xl:px-8 xl:py-4;
+}
+
+button.sm {
+  @apply px-4 py-2 xl:px-8;
+}
+
+nav ul {
+  @apply h-0 overflow-hidden py-0 !transition-[height] md:h-auto;
+}
+
+nav #nav-check:checked + ul {
+  @apply h-[22rem] py-10 md:h-auto md:py-0;
+}
+
+#testimonials .owl-dots button {
+  @apply h-3 w-3 rounded-none bg-gray-300;
+}
+
+#testimonials .owl-dots button.active {
+  @apply h-3 w-3 rounded-none bg-gray-800;
+}
+
+#testimonials .owl-dots {
+  @apply mt-6 flex justify-center gap-2;
+}
+
+.owl-item:not(.active) {
+  @apply pl-5;
+}
+
+#video-check:checked ~ #video-container {
+  @apply pointer-events-auto opacity-100;
+}
+
+#video-container {
+  @apply pointer-events-none opacity-0 transition-all duration-700;
+}
