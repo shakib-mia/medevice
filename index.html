@@ -90,17 +90,35 @@
               Explore Our Products
             </button>
           </div>
-          <div class="w-0 xl:w-1/2 flex justify-center">
-           <label for="video-check"> <img src="./assets/play.png" class="cursor-pointer" alt=""></label>
-           <input type="checkbox" class="hidden" id="video-check">
-           <label for="video-check" class="fixed top-0 left-0 bg-black bg-opacity-80 h-screen w-screen hidden xl:flex justify-center items-center z-[9999999]" id="video-container">
-            <div class="w-11/12 lg:w-1/2 relative">
-              <label for="video-check" class="absolute -top-9 -right-9 text-white cursor-pointer text-40">
-                <i class="fa fa-times"></i>
-              </label>
-              <iframe class="w-full aspect-[516/315]" src="https://www.youtube.com/embed/u31qwQUeGuM?si=BmWjWP3GUIMySkUx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" id="player" allowfullscreen></iframe>
-            </div>
-           </label>
+          <div class="flex w-0 justify-center xl:w-1/2">
+            <label for="video-check">
+              <img src="./assets/play.png" class="cursor-pointer" alt=""
+            /></label>
+            <input type="checkbox" class="hidden" id="video-check" />
+            <label
+              for="video-check"
+              class="fixed left-0 top-0 z-[9999999] hidden h-screen w-screen items-center justify-center bg-black bg-opacity-80 xl:flex"
+              id="video-container"
+            >
+              <div class="relative w-11/12 lg:w-1/2">
+                <label
+                  for="video-check"
+                  class="absolute -right-9 -top-9 cursor-pointer text-40 text-white"
+                >
+                  <i class="fa fa-times"></i>
+                </label>
+                <iframe
+                  class="aspect-[516/315] w-full"
+                  src="https://www.youtube.com/embed/u31qwQUeGuM?si=BmWjWP3GUIMySkUx"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  id="player"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </label>
           </div>
         </div>
       </div>
@@ -113,7 +131,10 @@
         style="background-image: url(./assets/bg-shape.png)"
         id="shockwave-section"
       >
-        <div class="container grid grid-cols-1 gap-7 lg:grid-cols-2 py-14 lg:py-28" id="about">
+        <div
+          class="container grid grid-cols-1 gap-7 py-14 lg:grid-cols-2 lg:py-28"
+          id="about"
+        >
           <!-- <div class="aspect-square"> -->
           <img
             src="./assets/shockwave-section.jpeg"
@@ -570,7 +591,10 @@
         class="relative -top-6 rounded-2xl bg-black py-14 lg:-top-8 lg:py-28"
         id="healing-potential"
       >
-        <div class="container flex flex-wrap-reverse gap-6 lg:flex-nowrap" id="blog">
+        <div
+          class="container flex flex-wrap-reverse gap-6 lg:flex-nowrap"
+          id="blog"
+        >
           <aside class="w-full text-white lg:w-8/12">
             <h2
               data-aos="fade-right"
@@ -761,7 +785,12 @@
         <div
           class="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-16 lg:grid-cols-4 lg:gap-24"
         >
-          <aside data-aos="fade-up" data-aos-duration="1500" data-aos-anchor="footer" data-aos-delay="0">
+          <aside
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-anchor="footer"
+            data-aos-delay="0"
+          >
             <a href="#" class="flex items-center md:gap-5">
               <img src="./assets/logo.png" class="h-fit w-4 md:w-8" alt="" />
               <h5 class="hidden font-sans font-bold text-white md:block">
@@ -770,7 +799,12 @@
             </a>
             <p class="xs mt-4">818 22nd Ave NW Saint Paul, MN 55112-6629 USA</p>
           </aside>
-          <aside data-aos="fade-up" data-aos-duration="1500" data-aos-anchor="footer" data-aos-delay="100">
+          <aside
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-anchor="footer"
+            data-aos-delay="100"
+          >
             <h6 class="font-serif">Our Product</h6>
             <ul class="mt-2 flex flex-col gap-4 lg:mt-6">
               <li class="text-14 md:text-16 lg:text-18">
@@ -787,7 +821,12 @@
               </li>
             </ul>
           </aside>
-          <aside data-aos="fade-up" data-aos-duration="1500" data-aos-anchor="footer" data-aos-delay="200">
+          <aside
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-anchor="footer"
+            data-aos-delay="200"
+          >
             <h6 class="font-serif">Contact Us</h6>
             <ul class="mt-2 flex flex-col gap-4 lg:mt-6">
               <li class="flex gap-3 text-14 md:text-16 lg:text-18">
@@ -803,7 +842,12 @@
               </li>
             </ul>
           </aside>
-          <aside data-aos="fade-up" data-aos-duration="1500" data-aos-anchor="footer" data-aos-delay="300">
+          <aside
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-anchor="footer"
+            data-aos-delay="300"
+          >
             <h6 class="font-serif">Newsletter</h6>
             <form class="relative">
               <input
@@ -846,14 +890,16 @@
                 <i class="fa fa-twitter text-24"></i>
               </a>
             </div>
-          </asdi>
+          </aside>
         </div>
       </div>
 
       <div class="container mt-20 flex justify-between text-16">
         <p>
           Copyright &copy;<span id="year"></span> Design & Developed by
-          <a href="https://raddito.com/" class="underline hover:no-underline">Raddito LLC</a>.
+          <a href="https://raddito.com/" class="underline hover:no-underline"
+            >Raddito LLC</a
+          >.
         </p>
 
         <ul class="flex gap-7">
