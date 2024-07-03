@@ -63,7 +63,6 @@
     <header
       class="relative bg-cover bg-no-repeat py-72 lg:h-screen lg:py-0"
       style="background-image: url(./assets/header-bg.png)"
-      id="products"
     >
       <div
         class="absolute left-0 top-0 h-full w-full bg-gradient-to-r from-white via-[#ffffffdd] to-transparent"
@@ -94,14 +93,14 @@
           <div class="w-0 xl:w-1/2 flex justify-center">
            <label for="video-check"> <img src="./assets/play.png" class="cursor-pointer" alt=""></label>
            <input type="checkbox" class="hidden" id="video-check">
-           <div class="fixed top-0 left-0 bg-black bg-opacity-80 h-screen w-screen hidden xl:flex justify-center items-center z-[9999999]" id="video-container">
+           <label for="video-check" class="fixed top-0 left-0 bg-black bg-opacity-80 h-screen w-screen hidden xl:flex justify-center items-center z-[9999999]" id="video-container">
             <div class="w-11/12 lg:w-1/2 relative">
               <label for="video-check" class="absolute -top-9 -right-9 text-white cursor-pointer text-40">
                 <i class="fa fa-times"></i>
               </label>
               <iframe class="w-full aspect-[516/315]" src="https://www.youtube.com/embed/u31qwQUeGuM?si=BmWjWP3GUIMySkUx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" id="player" allowfullscreen></iframe>
             </div>
-           </div>
+           </label>
           </div>
         </div>
       </div>
@@ -110,11 +109,11 @@
     <main>
       <!-- Shockwave Section -->
       <section
-        class="bg-[rotate:45deg] bg-right-top bg-no-repeat py-14 lg:py-28"
+        class="bg-[rotate:45deg] bg-right-top bg-no-repeat"
         style="background-image: url(./assets/bg-shape.png)"
         id="shockwave-section"
       >
-        <div class="container grid grid-cols-1 gap-7 lg:grid-cols-2" id="about">
+        <div class="container grid grid-cols-1 gap-7 lg:grid-cols-2 py-14 lg:py-28" id="about">
           <!-- <div class="aspect-square"> -->
           <img
             src="./assets/shockwave-section.jpeg"
