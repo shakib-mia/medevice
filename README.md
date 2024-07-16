@@ -8,12 +8,19 @@ Medevice is a leading provider of cutting-edge shockwave therapy devices, design
 
 **Live Preview:** [Medevice](https://medevice-vite.netlify.app/)
 
-## Features:
+## Features
 
-- **Cutting-Edge Shock Wave Therapy Machines:** Designed for mobile practitioners, clinics, and hospitals, our devices offer intuitive interfaces and versatile therapy heads for various applications.
-- **Enhanced Pain Relief:** Our technology provides effective non-invasive pain management for musculoskeletal conditions, enhancing patient comfort and recovery.
-- **Accelerated Healing:** Stimulate tissue repair and regeneration with our advanced shockwave therapy solutions, speeding up recovery and improving mobility.
-- **Comprehensive Support:** Beyond product sales, we offer extensive training and support to maximize device effectiveness and patient care.
+- **Responsive Design:** Built with mobile-first principles, ensuring seamless display across various devices and screen sizes.
+
+- **Customizable Layout:** Tailwind CSS enables easy customization of colors, typography, and spacing to align with your brand identity.
+
+- **Optimized Performance:** Leveraging Vite's lightning-fast build process, your website loads swiftly, enhancing user experience.
+
+- **Extensive Listings:** Listed premium services like Task Management, Design System, Best Practices.
+
+- **Testimonials Section:** Showcase client testimonials to build trust and credibility, encouraging new visitors to engage with your offerings.
+
+- **Contact Form Integration:** Seamlessly integrate a contact form for inquiries, bookings, or general communication, enhancing user engagement.
 
 ## Usage Instructions:
 
